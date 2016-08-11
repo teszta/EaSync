@@ -1,0 +1,8 @@
+E:\GitHub\EaSync\EaSync\EaSync\bin\Release\EaSync.exe.config
+E:\GitHub\EaSync\EaSync\EaSync\bin\Release\EaSync.exe
+E:\GitHub\EaSync\EaSync\EaSync\bin\Release\EaSync.pdb
+E:\GitHub\EaSync\EaSync\EaSync\obj\Release\EaSync.EaSync.resources
+E:\GitHub\EaSync\EaSync\EaSync\obj\Release\EaSync.Properties.Resources.resources
+E:\GitHub\EaSync\EaSync\EaSync\obj\Release\EaSync.csproj.GenerateResource.Cache
+E:\GitHub\EaSync\EaSync\EaSync\obj\Release\EaSync.exe
+E:\GitHub\EaSync\EaSync\EaSync\obj\Release\EaSync.pdb

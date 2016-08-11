@@ -1,0 +1,9 @@
+E:\GitHub\EaSync\EaSync\EaSync\bin\Debug\EaSync.exe.config
+E:\GitHub\EaSync\EaSync\EaSync\bin\Debug\EaSync.exe
+E:\GitHub\EaSync\EaSync\EaSync\bin\Debug\EaSync.pdb
+E:\GitHub\EaSync\EaSync\EaSync\obj\Debug\EaSync.csprojResolveAssemblyReference.cache
+E:\GitHub\EaSync\EaSync\EaSync\obj\Debug\EaSync.EaSync.resources
+E:\GitHub\EaSync\EaSync\EaSync\obj\Debug\EaSync.Properties.Resources.resources
+E:\GitHub\EaSync\EaSync\EaSync\obj\Debug\EaSync.csproj.GenerateResource.Cache
+E:\GitHub\EaSync\EaSync\EaSync\obj\Debug\EaSync.exe
+E:\GitHub\EaSync\EaSync\EaSync\obj\Debug\EaSync.pdb
