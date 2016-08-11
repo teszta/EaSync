@@ -159,7 +159,9 @@
             this.Controls.Add(this.StartBtn);
             this.Controls.Add(this.DestBtn);
             this.Controls.Add(this.SyncBtn);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "EaSync";
             this.Text = "EaSync";
             this.ResumeLayout(false);

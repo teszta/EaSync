@@ -6,3 +6,4 @@ E:\GitHub\EaSync\EaSync\EaSync\obj\Release\EaSync.Properties.Resources.resources
 E:\GitHub\EaSync\EaSync\EaSync\obj\Release\EaSync.csproj.GenerateResource.Cache
 E:\GitHub\EaSync\EaSync\EaSync\obj\Release\EaSync.exe
 E:\GitHub\EaSync\EaSync\EaSync\obj\Release\EaSync.pdb
+E:\GitHub\EaSync\EaSync\EaSync\obj\Release\EaSync.csprojResolveAssemblyReference.cache

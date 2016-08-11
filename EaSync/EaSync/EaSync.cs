@@ -54,7 +54,7 @@ namespace EaSync
             var Parser = new IniParser("config.ini");
             Lista.Items.Clear();
             Thread.Sleep(100);
-            if (ExtBox == null)
+            if (ExtBox.Text == "")
             {
                 MessageBox.Show("Type an extension first. (eg.: .mp3 , .mp4 , .mkv)", "Alert", MessageBoxButtons.OK, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button1);
                 Lista.Items.Add("Aborted..");
@@ -97,6 +97,7 @@ namespace EaSync
                 try
                 {
                     File.Copy(SyncFiles[i], s);
+                    Thread.Sleep(10);
                     Lista.Items.Add("File synced:" + SyncFiles[i].Substring(SyncFiles[i].LastIndexOf('\\') + 1));
                     Lista.SelectedIndex = synced;
                     progressBar.PerformStep();
