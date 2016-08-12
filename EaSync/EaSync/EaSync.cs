@@ -53,6 +53,7 @@ namespace EaSync
         {
             var Parser = new IniParser("config.ini");
             Lista.Items.Clear();
+            progressBar.Value = 0;
             Thread.Sleep(100);
             if (ExtBox.Text == "")
             {
@@ -98,7 +99,7 @@ namespace EaSync
                 {
                     File.Copy(SyncFiles[i], s);
                     Thread.Sleep(10);
-                    Lista.Items.Add("File synced:" + SyncFiles[i].Substring(SyncFiles[i].LastIndexOf('\\') + 1));
+                    Lista.Items.Add("File synced: " + SyncFiles[i].Substring(SyncFiles[i].LastIndexOf('\\') + 1));
                     Lista.SelectedIndex = synced;
                     progressBar.PerformStep();
                     synced++;
@@ -134,6 +135,7 @@ namespace EaSync
         private void SyncBtn_Click(object sender, EventArgs e)
         {
             var Parser = new IniParser("config.ini");
+            SyncFolderSelector.Description = "Select the syncronization folder where you want to syncronize from.";
             SyncFolderSelector.ShowDialog();
             if (SyncFolderSelector.SelectedPath != "")
             {
@@ -146,6 +148,7 @@ namespace EaSync
         private void DestBtn_Click(object sender, EventArgs e)
         {
             var Parser = new IniParser("config.ini");
+            DestFolderSelector.Description = "Select the destination folder where you want to syncronize your files.";
             DestFolderSelector.ShowDialog();
             if (DestFolderSelector.SelectedPath != "")
             {
